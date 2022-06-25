@@ -4,28 +4,12 @@
     margin: 0;
 }
 
-/* body {
-    display: flex;
-} */
-
-/* Header CSS */
-
-header {
-    display: flex;
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: darkblue;
-    color: white;
+nav {
+    /* Aligns text to the right side of the header */
+    text-align: right;
 }
 
-/* Header text styling */
-
-header a {
-    color: white;
-    text-decoration: none;
-}
-
-/* Style anchor tags */
+/* Styles anchor tags */
 
 li a {
     text-decoration: none;
@@ -38,36 +22,33 @@ li a {
 li {
     display: inline;
 }
-/* header h1 {
-    display: absolute;
-    font-size: 48px;
-} */
 
-/* header nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    /font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px; 
-}  */
-
-/* header nav ul {
-    list-style-type: none;
+header {
+    /* Keeps the header at the top of the page */
+    position: fixed;
+    /* Spans the header over the entire website page */
+    width: 100%;
+    padding: 20px;
+    border-bottom: 15px solid lightgrey;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: darkblue;
+    color: white;
 }
 
-header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
-}
+/* Header text styling */
 
-a {
-    color: #ffffff;
+header a {
+    color: white;
     text-decoration: none;
-} */
+}
 
 footer {
+    /* moves fotter to the bottome of the page (absolute) */
+    position: fixed;
+    /* Spans the footer the full length of the website */
+    width: 100%;
+    border-top: 15px solid lightgrey;
     padding: 30px;
-    clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: darkblue;
     text-align: center;
@@ -78,8 +59,3 @@ footer h2 {
     font-size: 20px;
     color: white;
 }
-
-/* Keith's CSS */
-
-
-/* Daniel's CSS */
