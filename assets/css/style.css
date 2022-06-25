@@ -1,4 +1,6 @@
 * {
+    /* Border box give padding to the navbar */
+    box-sizing: border-box;
     margin: 0;
 }
 
@@ -22,8 +24,9 @@ li {
 }
 
 header {
+    /* Changed "fixed" to "static pushed form into body" */
     /* Keeps the header at the top of the page */
-    position: fixed;
+    position: static;
     /* Spans the header over the entire website page */
     width: 100%;
     padding: 20px;
