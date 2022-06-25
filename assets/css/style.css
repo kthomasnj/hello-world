@@ -4,30 +4,79 @@
     margin: 0;
 }
 
+/* body {
+    display: flex;
+} */
+
 /* Header CSS */
 
 header {
+    display: flex;
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: lightgrey;
+    background-color: darkblue;
     color: white;
 }
 
-header h1 {
-    display: inline-block;
-    font-size: 48px;
+/* Header text styling */
+
+header a {
+    color: white;
+    text-decoration: none;
 }
+
+/* Style anchor tags */
+
+li a {
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+}
+
+/* Displays nav inline (Default Block) */
+
+li {
+    display: inline;
+}
+/* header h1 {
+    display: absolute;
+    font-size: 48px;
+} */
+
+/* header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    /font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px; 
+}  */
+
+/* header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+} */
 
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: lightgrey;
+    background-color: darkblue;
     text-align: center;
+    bottom: 0;
 }
 
 footer h2 {
     font-size: 20px;
+    color: white;
 }
 
 /* Keith's CSS */
