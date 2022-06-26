@@ -1,12 +1,45 @@
 * {
     /* Border box give padding to the navbar */
     box-sizing: border-box;
+    padding: 0;
     margin: 0;
 }
 
-nav {
-    /* Aligns text to the right side of the header */
-    text-align: right;
+header {
+    padding: 20px;
+    border-bottom: 15px solid grey;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: darkblue;
+    color: white;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* Header text styling */
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Floats nav to the right */
+
+header nav {
+    float: right;
+    padding-top: 20px;
+}
+
+h1 span, h2 span {
+    color: grey;
+}
+
+/* Displays nav inline (Default Block) */
+
+li {
+    display: inline;
 }
 
 /* Styles anchor tags */
@@ -17,34 +50,27 @@ li a {
     margin-right: 15px;
 }
 
-/* Displays nav inline (Default Block) */
-
-li {
-    display: inline;
+main {
+    padding: 25px;
 }
 
-header {
-    /* Changed "fixed" to "static pushed form into body" */
-    /* Keeps the header at the top of the page */
-    position: static;
-    /* Spans the header over the entire website page */
-    width: 100%;
-    padding: 20px;
-    border-bottom: 15px solid lightgrey;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+main h2 {
+    margin-bottom: 25px;
+}
+
+section {
     background-color: darkblue;
     color: white;
+    border: 12.5px solid grey;
 }
 
-/* Header text styling */
-
-header a {
-    color: white;
-    text-decoration: none;
+section h3 {
+    padding: 25px;
+    text-align: center;
 }
 
-main {
-    position: absolute;
+section p {
+    padding: 25px;
 }
 
 footer {
@@ -52,7 +78,7 @@ footer {
     position: fixed;
     /* Spans the footer the full length of the website */
     width: 100%;
-    border-top: 15px solid lightgrey;
+    border-top: 15px solid grey;
     padding: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: darkblue;
