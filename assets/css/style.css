@@ -1,7 +1,35 @@
 * {
     /* Border box give padding to the navbar */
     box-sizing: border-box;
+    padding: 0;
     margin: 0;
+}
+
+header {
+    padding: 20px;
+    border-bottom: 15px solid lightgrey;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: darkblue;
+    color: white;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* Header text styling */
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Floats nav to the right */
+
+header nav {
+    float: right;
+    padding-top: 20px;
 }
 
 nav {
@@ -21,26 +49,6 @@ li a {
 
 li {
     display: inline;
-}
-
-header {
-    /* Changed "fixed" to "static pushed form into body" */
-    /* Keeps the header at the top of the page */
-    position: static;
-    /* Spans the header over the entire website page */
-    width: 100%;
-    padding: 20px;
-    border-bottom: 15px solid lightgrey;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: darkblue;
-    color: white;
-}
-
-/* Header text styling */
-
-header a {
-    color: white;
-    text-decoration: none;
 }
 
 main {
