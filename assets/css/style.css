@@ -36,18 +36,18 @@ h1 span, h2 span {
     color: grey;
 }
 
+/* Displays nav inline (Default Block) */
+
+li {
+    display: inline;
+}
+
 /* Styles anchor tags */
 
 li a {
     text-decoration: none;
     color: white;
     margin-right: 15px;
-}
-
-/* Displays nav inline (Default Block) */
-
-li {
-    display: inline;
 }
 
 main {
