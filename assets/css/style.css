@@ -51,7 +51,26 @@ li a {
 }
 
 main {
-    position: absolute;
+    padding: 25px;
+}
+
+main h2 {
+    margin-bottom: 25px;
+}
+
+section {
+    background-color: darkblue;
+    color: white;
+    border: 12.5px solid grey;
+}
+
+section h3 {
+    padding: 25px;
+    text-align: center;
+}
+
+section p {
+    padding: 25px;
 }
 
 footer {
