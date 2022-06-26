@@ -7,7 +7,7 @@
 
 header {
     padding: 20px;
-    border-bottom: 15px solid lightgrey;
+    border-bottom: 15px solid grey;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: darkblue;
     color: white;
@@ -32,9 +32,8 @@ header nav {
     padding-top: 20px;
 }
 
-nav {
-    /* Aligns text to the right side of the header */
-    text-align: right;
+h1 span, h2 span {
+    color: grey;
 }
 
 /* Styles anchor tags */
@@ -60,7 +59,7 @@ footer {
     position: fixed;
     /* Spans the footer the full length of the website */
     width: 100%;
-    border-top: 15px solid lightgrey;
+    border-top: 15px solid grey;
     padding: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: darkblue;
