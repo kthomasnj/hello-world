@@ -90,3 +90,21 @@ footer h2 {
     font-size: 20px;
     color: white;
 }
+
+/* Styling subscribe form */
+#subscribe-form {
+    color: darkblue;
+    font-family: cursive, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(138, 198, 253);
+}
+
+/* Color of the text Daniel */
+#header-name {
+    color: rgb(138, 198, 253);
+    font-family: cursive, Arial, Helvetica, sans-serif;
+}
+
+/* When hovering over Daniel the font size increases to 1.5em */
+#header-name:hover {
+    font-size: 1.5em;
+}
